@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KVLoading_Example' do
+  pod 'KVLoading', :path => '../'
+
+  target 'KVLoading_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
