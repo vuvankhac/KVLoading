@@ -1,0 +1,6 @@
+framework module KVLoading {
+  umbrella header "KVLoading-umbrella.h"
+
+  export *
+  module * { export * }
+}

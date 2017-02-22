@@ -1,0 +1,6 @@
+framework module Pods_KVLoading_Tests {
+  umbrella header "Pods-KVLoading_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

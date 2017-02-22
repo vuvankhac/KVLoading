@@ -1,0 +1,16 @@
+PODS:
+  - KVLoading (0.1.0)
+
+DEPENDENCIES:
+  - KVLoading (from `../`)
+
+EXTERNAL SOURCES:
+  KVLoading:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KVLoading: 8e6aced6dc3c5fb65b7b6c5d70d5789c4f9bd6a7
+
+PODFILE CHECKSUM: 0de2781ccbd649e38bf61bbd48c2819239718665
+
+COCOAPODS: 1.1.1

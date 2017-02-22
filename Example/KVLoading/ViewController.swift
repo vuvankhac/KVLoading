@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import KVLoading
 
 class ViewController: UIViewController {
 
@@ -20,5 +21,20 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    @IBAction func showDefaultLoadingAction(_ sender: Any) {
+        KVLoading.show()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+            KVLoading.hide()
+        }
+    }
+    
+    @IBAction func showCustomLoadingAction(_ sender: Any?) {
+        let customView: CustomView = CustomView.loadFromNib()
+        KVLoading.show(customView)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+            KVLoading.hide()
+        }
+    }
 }
 
