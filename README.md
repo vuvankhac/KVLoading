@@ -9,8 +9,8 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-![demo](Screenshots/KVLoading-default.gif)
-![demo](Screenshots/KVLoading-custom.gif)
+<img src="Screenshots/KVLoading-default.gif" width="320px" height="568px" />
+<img src="Screenshots/KVLoading-custom.gif" width="320px" height="568px" />
 
 ## Requirements
 
