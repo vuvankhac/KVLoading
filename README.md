@@ -26,6 +26,16 @@ pod 'KVLoading', '~> 1.1'
 
 ## Usage
 
+Enable dim background:
+```swift
+KVLoading.enableDimBackground()
+```
+
+Disable dim background:
+```swift
+KVLoading.disableDimBackgrounda()
+```
+
 Show default loading:
 ```swift
 KVLoading.show()
