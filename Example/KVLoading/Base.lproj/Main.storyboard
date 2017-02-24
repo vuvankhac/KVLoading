@@ -23,21 +23,27 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9zy-47-A1g">
-                                <rect key="frame" x="20" y="100" width="149.5" height="30"/>
-                                <state key="normal" title="Default"/>
+                                <rect key="frame" x="20" y="100" width="149.5" height="32"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="Default">
+                                    <color key="titleColor" red="1" green="0.78823529410000004" blue="0.054901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="showDefaultLoadingAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YP3-Mw-H2d"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vFm-f3-ktN">
-                                <rect key="frame" x="189.5" y="100" width="149.5" height="30"/>
-                                <state key="normal" title="Custom"/>
+                                <rect key="frame" x="189.5" y="100" width="149.5" height="32"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="Custom">
+                                    <color key="titleColor" red="1" green="0.78823529410000004" blue="0.054901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="showCustomLoadingAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="yyw-SD-bXz"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="9zy-47-A1g" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="0lb-9q-UNP"/>
                             <constraint firstItem="vFm-f3-ktN" firstAttribute="width" secondItem="9zy-47-A1g" secondAttribute="width" id="3cK-C5-Irp"/>

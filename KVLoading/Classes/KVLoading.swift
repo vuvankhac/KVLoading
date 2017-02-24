@@ -35,17 +35,20 @@ public class KVLoading: UIView {
     }
     
     lazy var keyView: UIView = {
-        if let view = UIApplication.shared.keyWindow {
+        if let view = UIApplication.shared.windows.last {
             return view
         }
         
         return UIView()
     }()
     
+    var dimBackground: Bool = false
     lazy var backgroundView: UIView = {
         let backgroundView: UIView = UIView()
+        backgroundView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         backgroundView.frame = self.keyView.bounds
         backgroundView.isUserInteractionEnabled = true
+        backgroundView.backgroundColor = .black
         self.keyView.addSubview(backgroundView)
         
         return backgroundView
@@ -55,7 +58,6 @@ public class KVLoading: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: UIScreen.main.bounds)
-        self.autoresizingMask = [.flexibleWidth, .flexibleHeight]
     }
     
     required public init?(coder aDecoder: NSCoder) {
@@ -70,6 +72,14 @@ public class KVLoading: UIView {
         contentView.center = keyView.center
     }
     
+    public static func enableDimBackground() {
+        self.shared.dimBackground = true
+    }
+    
+    public static func disableDimBackgrounda() {
+        self.shared.dimBackground = false
+    }
+    
     public static func show(_ customView: UIView? = nil, animated: Bool = true) {
         self.shared.show(customView, animated: animated)
     }
@@ -79,13 +89,22 @@ public class KVLoading: UIView {
             return
         }
         
-        NotificationCenter.default.addObserver(self, selector: #selector(self.didChangeStatusBarOrientation(notifitation:)), name: NSNotification.Name.UIApplicationDidChangeStatusBarOrientation, object: nil)
-        
         if let customView = customView {
-            customView.autoresizingMask = [.flexibleTopMargin, .flexibleRightMargin, .flexibleLeftMargin, .flexibleBottomMargin]
+            customView.autoresizingMask = [.flexibleTopMargin, .flexibleRightMargin, .flexibleBottomMargin, .flexibleLeftMargin]
             contentView = customView
         } else {
+            NotificationCenter.default.addObserver(self, selector: #selector(self.didChangeStatusBarOrientation(notifitation:)), name: NSNotification.Name.UIApplicationDidChangeStatusBarOrientation, object: nil)
             contentView = KVLoadingView()
+        }
+        
+        backgroundView.isHidden = false
+        if dimBackground {
+            backgroundView.alpha = 0
+            UIView.animate(withDuration: 0.3, animations: {
+                self.backgroundView.alpha = 0.2
+            })
+        } else {
+            backgroundView.alpha = 0
         }
         
         guard let contentView = self.contentView else {
@@ -94,7 +113,6 @@ public class KVLoading: UIView {
         
         contentView.alpha = 0
         contentView.center = keyView.center
-        backgroundView.isHidden = false
         keyView.addSubview(contentView)
         if animated {
             UIView.animate(withDuration: 0.3, animations: {
@@ -113,6 +131,10 @@ public class KVLoading: UIView {
         if !isShowing {
             return
         }
+        
+        UIView.animate(withDuration: 0.3, animations: {
+            self.backgroundView.alpha = 0
+        })
         
         if animated {
             UIView.animate(withDuration: 0.3, animations: {
