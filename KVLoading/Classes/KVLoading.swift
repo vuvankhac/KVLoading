@@ -35,7 +35,7 @@ public class KVLoading: UIView {
     }
     
     lazy var keyView: UIView = {
-        if let view = UIApplication.shared.windows.last {
+        if let view = UIApplication.shared.keyWindow {
             return view
         }
         
