@@ -18,7 +18,6 @@ class CustomView: UIView {
         indicatorView.startAnimating()
         title.text = "Wait a minute..."
     }
-
 }
 
 extension UIView {

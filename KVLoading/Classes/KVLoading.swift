@@ -42,7 +42,6 @@ public class KVLoading: UIView {
         return UIView()
     }()
     
-    var dimBackground: Bool = false
     lazy var backgroundView: UIView = {
         let backgroundView: UIView = UIView()
         backgroundView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
@@ -72,14 +71,6 @@ public class KVLoading: UIView {
         contentView.center = keyView.center
     }
     
-    public static func enableDimBackground() {
-        self.shared.dimBackground = true
-    }
-    
-    public static func disableDimBackgrounda() {
-        self.shared.dimBackground = false
-    }
-    
     public static func show(_ customView: UIView? = nil, animated: Bool = true) {
         self.shared.show(customView, animated: animated)
     }
@@ -89,23 +80,17 @@ public class KVLoading: UIView {
             return
         }
         
+        NotificationCenter.default.addObserver(self, selector: #selector(self.didChangeStatusBarOrientation(notifitation:)), name: NSNotification.Name.UIApplicationDidChangeStatusBarOrientation, object: nil)
         if let customView = customView {
-            customView.autoresizingMask = [.flexibleTopMargin, .flexibleRightMargin, .flexibleBottomMargin, .flexibleLeftMargin]
             contentView = customView
         } else {
-            NotificationCenter.default.addObserver(self, selector: #selector(self.didChangeStatusBarOrientation(notifitation:)), name: NSNotification.Name.UIApplicationDidChangeStatusBarOrientation, object: nil)
             contentView = KVLoadingView()
         }
         
-        backgroundView.isHidden = false
-        if dimBackground {
-            backgroundView.alpha = 0
-            UIView.animate(withDuration: 0.3, animations: {
-                self.backgroundView.alpha = 0.2
-            })
-        } else {
-            backgroundView.alpha = 0
-        }
+        backgroundView.alpha = 0
+        UIView.animate(withDuration: 0.3, animations: {
+            self.backgroundView.alpha = 0.2
+        })
         
         guard let contentView = self.contentView else {
             return
