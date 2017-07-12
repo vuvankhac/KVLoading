@@ -1,9 +1,6 @@
-# KVLoading
+# Introduction
 
-[![CI Status](http://img.shields.io/travis/vuvankhac/KVLoading.svg?style=flat)](https://travis-ci.org/vuvankhac/KVLoading)
-[![Version](https://img.shields.io/cocoapods/v/KVLoading.svg?style=flat)](http://cocoapods.org/pods/KVLoading)
-[![License](https://img.shields.io/cocoapods/l/KVLoading.svg?style=flat)](http://cocoapods.org/pods/KVLoading)
-[![Platform](https://img.shields.io/cocoapods/p/KVLoading.svg?style=flat)](http://cocoapods.org/pods/KVLoading)
+`KVLoading` is a loading screen and you can customize. Really simple to use, just add the class and write few line of code.
 
 ## Example
 
