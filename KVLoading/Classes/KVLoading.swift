@@ -82,6 +82,7 @@ public class KVLoading: UIView {
         
         NotificationCenter.default.addObserver(self, selector: #selector(self.didChangeStatusBarOrientation(notifitation:)), name: NSNotification.Name.UIApplicationDidChangeStatusBarOrientation, object: nil)
         if let customView = customView {
+            customView.translatesAutoresizingMaskIntoConstraints = false
             contentView = customView
         } else {
             contentView = KVLoadingView()
@@ -99,6 +100,13 @@ public class KVLoading: UIView {
         contentView.alpha = 0
         contentView.center = keyView.center
         keyView.addSubview(contentView)
+        if let customView = customView {
+            let horizontalConstraint = NSLayoutConstraint(item: customView, attribute: .centerX, relatedBy: .equal, toItem: keyView, attribute: .centerX, multiplier: 1, constant: 0)
+            let verticalConstraint = NSLayoutConstraint(item: customView, attribute: .centerY, relatedBy: .equal, toItem: keyView, attribute: .centerY, multiplier: 1, constant: 0)
+            keyView.addConstraint(horizontalConstraint)
+            keyView.addConstraint(verticalConstraint)
+        }
+        
         if animated {
             UIView.animate(withDuration: 0.3, animations: {
                 contentView.alpha = 1
@@ -125,13 +133,11 @@ public class KVLoading: UIView {
             UIView.animate(withDuration: 0.3, animations: {
                 self.contentView?.alpha = 0
             }, completion: { (_) in
-                self.backgroundView.isHidden = true
                 self.contentView?.removeFromSuperview()
                 self.contentView = nil
                 NotificationCenter.default.removeObserver(self)
             })
         } else {
-            backgroundView.isHidden = true
             contentView?.alpha = 0
             contentView?.removeFromSuperview()
             contentView = nil

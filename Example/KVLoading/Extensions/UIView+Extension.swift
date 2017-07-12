@@ -1,24 +1,8 @@
 //
-//  CustomView.swift
-//  KVLoading
-//
-//  Created by Vu Van Khac on 2/22/17.
-//  Copyright © 2017 CocoaPods. All rights reserved.
+//  UIView+Extension.swift
 //
 
 import UIKit
-
-class CustomView: UIView {
-
-    @IBOutlet weak var indicatorView: UIActivityIndicatorView!
-    @IBOutlet weak var title: UILabel!
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        indicatorView.startAnimating()
-        title.text = "Wait a minute..."
-    }
-}
 
 extension UIView {
     
@@ -33,5 +17,4 @@ extension UIView {
         let nib = UINib(nibName: nibName, bundle: nil)
         return nib.instantiate(withOwner: self, options: nil).first as! T
     }
-    
 }

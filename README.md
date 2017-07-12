@@ -21,20 +21,10 @@ KVLoading is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'KVLoading', '~> 1.3'
+pod 'KVLoading', '~> 1.4'
 ```
 
 ## Usage
-
-Enable dim background:
-```swift
-KVLoading.enableDimBackground()
-```
-
-Disable dim background:
-```swift
-KVLoading.disableDimBackgrounda()
-```
 
 Show default loading:
 ```swift

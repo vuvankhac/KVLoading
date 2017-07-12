@@ -14,8 +14,9 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		C4420D041E5D9BE000B1DFEE /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4420D031E5D9BE000B1DFEE /* CustomView.swift */; };
-		C4420D061E5D9BEC00B1DFEE /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4420D051E5D9BEC00B1DFEE /* CustomView.xib */; };
+		C44544E01F15DA4800DBD169 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44544DF1F15DA4800DBD169 /* UIView+Extension.swift */; };
+		C44544E41F15DA8400DBD169 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44544E21F15DA8400DBD169 /* CustomView.swift */; };
+		C44544E51F15DA8400DBD169 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44544E31F15DA8400DBD169 /* CustomView.xib */; };
 		CE49259E9CDE215537555D9E /* Pods_KVLoading_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D67D22E7890CAD35CEA301C /* Pods_KVLoading_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,8 +48,9 @@
 		86EF5337416542CEFFB5101A /* Pods-KVLoading_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVLoading_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KVLoading_Tests/Pods-KVLoading_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9AE783636C552F98B946DBFC /* Pods-KVLoading_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVLoading_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KVLoading_Example/Pods-KVLoading_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BB824A389DE81F6DD37BC56A /* Pods-KVLoading_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVLoading_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KVLoading_Tests/Pods-KVLoading_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C4420D031E5D9BE000B1DFEE /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
-		C4420D051E5D9BEC00B1DFEE /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		C44544DF1F15DA4800DBD169 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		C44544E21F15DA8400DBD169 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		C44544E31F15DA8400DBD169 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
 		E7416E7FE14F874CB063F91A /* Pods_KVLoading_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVLoading_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD7F263DD2B7CBFC6DAB12F5 /* Pods-KVLoading_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVLoading_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KVLoading_Example/Pods-KVLoading_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,7 +99,8 @@
 		607FACD21AFB9204008FA782 /* Example for KVLoading */ = {
 			isa = PBXGroup;
 			children = (
-				C4420D021E5D9BD300B1DFEE /* Custom */,
+				C44544E11F15DA8400DBD169 /* CustomView */,
+				C44544DE1F15DA3600DBD169 /* Extensions */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -153,13 +156,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C4420D021E5D9BD300B1DFEE /* Custom */ = {
+		C44544DE1F15DA3600DBD169 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				C4420D031E5D9BE000B1DFEE /* CustomView.swift */,
-				C4420D051E5D9BEC00B1DFEE /* CustomView.xib */,
+				C44544DF1F15DA4800DBD169 /* UIView+Extension.swift */,
 			);
-			path = Custom;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C44544E11F15DA8400DBD169 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				C44544E21F15DA8400DBD169 /* CustomView.swift */,
+				C44544E31F15DA8400DBD169 /* CustomView.xib */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 		F13135C756028B0E96DB0C90 /* Pods */ = {
@@ -263,7 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				C4420D061E5D9BEC00B1DFEE /* CustomView.xib in Resources */,
+				C44544E51F15DA8400DBD169 /* CustomView.xib in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -376,8 +387,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4420D041E5D9BE000B1DFEE /* CustomView.swift in Sources */,
+				C44544E41F15DA8400DBD169 /* CustomView.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				C44544E01F15DA4800DBD169 /* UIView+Extension.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
