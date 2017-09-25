@@ -14,23 +14,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
     @IBAction func showDefaultLoadingAction(_ sender: Any) {
         KVLoading.show()
-        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
             KVLoading.hide()
         }
     }
     
     @IBAction func showCustomLoadingAction(_ sender: Any?) {
         let customView: CustomView = CustomView.loadFromNib()
-        KVLoading.show(customView)
-        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+        KVLoading.showInView(view: view, customView: customView)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
             KVLoading.hide()
         }
     }

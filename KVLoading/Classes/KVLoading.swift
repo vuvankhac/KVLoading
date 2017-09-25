@@ -42,17 +42,7 @@ public class KVLoading: UIView {
         return UIView()
     }()
     
-    lazy var backgroundView: UIView = {
-        let backgroundView: UIView = UIView()
-        backgroundView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        backgroundView.frame = self.keyView.bounds
-        backgroundView.isUserInteractionEnabled = true
-        backgroundView.backgroundColor = .black
-        self.keyView.addSubview(backgroundView)
-        
-        return backgroundView
-    }()
-    
+    var backgroundView: UIView?
     var contentView: UIView?
     
     override init(frame: CGRect) {
@@ -80,6 +70,20 @@ public class KVLoading: UIView {
             return
         }
         
+        backgroundView = UIView()
+        if let backgroundView = backgroundView {
+            backgroundView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+            backgroundView.frame = keyView.bounds
+            backgroundView.isUserInteractionEnabled = true
+            backgroundView.backgroundColor = .black
+            keyView.addSubview(backgroundView)
+            
+            backgroundView.alpha = 0
+            UIView.animate(withDuration: 0.3, animations: {
+                backgroundView.alpha = 0.2
+            })
+        }
+        
         NotificationCenter.default.addObserver(self, selector: #selector(self.didChangeStatusBarOrientation(notifitation:)), name: NSNotification.Name.UIApplicationDidChangeStatusBarOrientation, object: nil)
         if let customView = customView {
             customView.translatesAutoresizingMaskIntoConstraints = false
@@ -88,11 +92,6 @@ public class KVLoading: UIView {
             contentView = KVLoadingView()
         }
         
-        backgroundView.alpha = 0
-        UIView.animate(withDuration: 0.3, animations: {
-            self.backgroundView.alpha = 0.2
-        })
-        
         guard let contentView = self.contentView else {
             return
         }
@@ -100,6 +99,60 @@ public class KVLoading: UIView {
         contentView.alpha = 0
         contentView.center = keyView.center
         keyView.addSubview(contentView)
+        if let customView = customView {
+            let horizontalConstraint = NSLayoutConstraint(item: customView, attribute: .centerX, relatedBy: .equal, toItem: keyView, attribute: .centerX, multiplier: 1, constant: 0)
+            let verticalConstraint = NSLayoutConstraint(item: customView, attribute: .centerY, relatedBy: .equal, toItem: keyView, attribute: .centerY, multiplier: 1, constant: 0)
+            keyView.addConstraint(horizontalConstraint)
+            keyView.addConstraint(verticalConstraint)
+        }
+        
+        if animated {
+            UIView.animate(withDuration: 0.3, animations: {
+                contentView.alpha = 1
+            })
+        } else {
+            contentView.alpha = 1
+        }
+    }
+    
+    public static func showInView(view: UIView, customView: UIView? = nil, animated: Bool = true) {
+        self.shared.showInView(view: view, customView, animated: animated)
+    }
+    
+    func showInView(view: UIView, _ customView: UIView? = nil, animated: Bool = true) {
+        if isShowing {
+            return
+        }
+        
+        backgroundView = UIView()
+        if let backgroundView = backgroundView {
+            backgroundView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+            backgroundView.frame = view.bounds
+            backgroundView.isUserInteractionEnabled = true
+            backgroundView.backgroundColor = .black
+            view.addSubview(backgroundView)
+            
+            backgroundView.alpha = 0
+            UIView.animate(withDuration: 0.3, animations: {
+                backgroundView.alpha = 0.2
+            })
+        }
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(self.didChangeStatusBarOrientation(notifitation:)), name: NSNotification.Name.UIApplicationDidChangeStatusBarOrientation, object: nil)
+        if let customView = customView {
+            customView.translatesAutoresizingMaskIntoConstraints = false
+            contentView = customView
+        } else {
+            contentView = KVLoadingView()
+        }
+        
+        guard let contentView = self.contentView else {
+            return
+        }
+        
+        contentView.alpha = 0
+        contentView.center = view.center
+        view.addSubview(contentView)
         if let customView = customView {
             let horizontalConstraint = NSLayoutConstraint(item: customView, attribute: .centerX, relatedBy: .equal, toItem: keyView, attribute: .centerX, multiplier: 1, constant: 0)
             let verticalConstraint = NSLayoutConstraint(item: customView, attribute: .centerY, relatedBy: .equal, toItem: keyView, attribute: .centerY, multiplier: 1, constant: 0)
@@ -125,21 +178,21 @@ public class KVLoading: UIView {
             return
         }
         
-        UIView.animate(withDuration: 0.3, animations: {
-            self.backgroundView.alpha = 0
-        })
-        
         if animated {
             UIView.animate(withDuration: 0.3, animations: {
+                self.backgroundView?.alpha = 0
                 self.contentView?.alpha = 0
-            }, completion: { (_) in
+            }, completion: { _ in
+                self.backgroundView?.removeFromSuperview()
                 self.contentView?.removeFromSuperview()
+                self.backgroundView = nil
                 self.contentView = nil
                 NotificationCenter.default.removeObserver(self)
             })
         } else {
-            contentView?.alpha = 0
+            backgroundView?.removeFromSuperview()
             contentView?.removeFromSuperview()
+            backgroundView = nil
             contentView = nil
             NotificationCenter.default.removeObserver(self)
         }
