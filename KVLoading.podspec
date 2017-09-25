@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KVLoading'
-  s.version          = ‘1.5’
+  s.version          = '1.5'
   s.summary          = 'Loading screen for Swift 3.'
 
 # This description is used to generate tags and improve search results.
