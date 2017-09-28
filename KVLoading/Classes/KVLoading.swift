@@ -53,7 +53,7 @@ public class KVLoading: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func didChangeStatusBarOrientation(notifitation: Notification) {
+    @objc func didChangeStatusBarOrientation(notifitation: Notification) {
         guard let contentView = self.contentView else {
             return
         }
