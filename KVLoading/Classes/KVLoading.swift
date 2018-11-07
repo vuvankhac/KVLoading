@@ -16,7 +16,7 @@ public class KVLoading: UIView {
         return Static.shared
     }
     
-    public private(set) var isShowing: Bool {
+    public var isShowing: Bool {
         get {
             guard let contentView = self.contentView else {
                 return false
@@ -27,10 +27,6 @@ public class KVLoading: UIView {
             } else {
                 return false
             }
-        }
-        
-        set {
-            self.isShowing = newValue
         }
     }
     
@@ -84,7 +80,7 @@ public class KVLoading: UIView {
             })
         }
         
-        NotificationCenter.default.addObserver(self, selector: #selector(self.didChangeStatusBarOrientation(notifitation:)), name: NSNotification.Name.UIApplicationDidChangeStatusBarOrientation, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(self.didChangeStatusBarOrientation(notifitation:)), name: UIApplication.didChangeStatusBarOrientationNotification, object: nil)
         if let customView = customView {
             customView.translatesAutoresizingMaskIntoConstraints = false
             contentView = customView
@@ -138,7 +134,7 @@ public class KVLoading: UIView {
             })
         }
         
-        NotificationCenter.default.addObserver(self, selector: #selector(self.didChangeStatusBarOrientation(notifitation:)), name: NSNotification.Name.UIApplicationDidChangeStatusBarOrientation, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(self.didChangeStatusBarOrientation(notifitation:)), name: UIApplication.didChangeStatusBarOrientationNotification, object: nil)
         if let customView = customView {
             customView.translatesAutoresizingMaskIntoConstraints = false
             contentView = customView
@@ -223,7 +219,7 @@ class KVLoadingView: UIView {
         activityIndicator.frame.size.width = 37
         activityIndicator.frame.size.height = 37
         activityIndicator.center = CGPoint(x: contentView.frame.width / 2, y: contentView.frame.height / 2)
-        activityIndicator.activityIndicatorViewStyle = .whiteLarge
+        activityIndicator.style = .whiteLarge
         activityIndicator.startAnimating()
         contentView.addSubview(activityIndicator)
         

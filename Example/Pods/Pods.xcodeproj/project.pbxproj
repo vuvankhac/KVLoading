@@ -40,7 +40,7 @@
 		39DCCD0DC7CA74B868080DCE22C04BB9 /* Pods-KVLoading_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KVLoading_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		3BD47FA1D41FA0996419A4C0185BB9B3 /* Pods-KVLoading_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KVLoading_Example-umbrella.h"; sourceTree = "<group>"; };
 		3DD7B123AFB14B2C7FEBC1014838ABF7 /* Pods-KVLoading_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KVLoading_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3E2546671A392D864D27B596C0BB3820 /* Pods_KVLoading_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KVLoading_Example.framework; path = "Pods-KVLoading_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2546671A392D864D27B596C0BB3820 /* Pods_KVLoading_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVLoading_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F6FF880C57B336EDC54ADABD58BBCD /* Pods-KVLoading_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KVLoading_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		640FAF649025CE7746F146EE8E3AE882 /* Pods-KVLoading_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KVLoading_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6B57678522FBBFF74FCEEBDE1203DF73 /* Pods-KVLoading_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVLoading_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -48,21 +48,21 @@
 		7D85725409CABB77762CF13C8BBC7C7B /* KVLoading-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVLoading-dummy.m"; sourceTree = "<group>"; };
 		85B687139B677FD7661CBF383D662308 /* KVLoading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KVLoading.swift; path = KVLoading/Classes/KVLoading.swift; sourceTree = "<group>"; };
 		8651DE22FB70A01FAAB9829A144C2C76 /* Pods-KVLoading_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KVLoading_Example-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1538F23F0883938FB1DDAB82FF01E61 /* KVLoading.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVLoading.xcconfig; sourceTree = "<group>"; };
 		A239EAD65A9EB1D894519716ABD06A79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5028B19793C6545E1C7479C220009B2 /* Pods-KVLoading_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KVLoading_Tests.modulemap"; sourceTree = "<group>"; };
+		A5028B19793C6545E1C7479C220009B2 /* Pods-KVLoading_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KVLoading_Tests.modulemap"; sourceTree = "<group>"; };
 		A7D784AFE4BDD5A4D0DE45A349EAC0E0 /* Pods-KVLoading_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KVLoading_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B006E5C0EE338CB4B9092DE4E5D0C157 /* Pods-KVLoading_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KVLoading_Example-dummy.m"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BBDCB2A49DB736C2A854BA407452FF12 /* KVLoading.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KVLoading.modulemap; sourceTree = "<group>"; };
+		BBDCB2A49DB736C2A854BA407452FF12 /* KVLoading.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KVLoading.modulemap; sourceTree = "<group>"; };
 		BC5901A480A12D28439B6B982170A1C8 /* Pods-KVLoading_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVLoading_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C3852AAD6EFBF7862F5A0975767658B5 /* Pods_KVLoading_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KVLoading_Tests.framework; path = "Pods-KVLoading_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3852AAD6EFBF7862F5A0975767658B5 /* Pods_KVLoading_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVLoading_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E28AE9DD125D794AD995164ACCB8DAAB /* KVLoading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KVLoading.framework; path = KVLoading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28AE9DD125D794AD995164ACCB8DAAB /* KVLoading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KVLoading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC6A53E1F3B43EFEC6946DCD174C82D /* Pods-KVLoading_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KVLoading_Tests-resources.sh"; sourceTree = "<group>"; };
 		F2991DD8468A9AA260D8AF8DC717AA0B /* Pods-KVLoading_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KVLoading_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F5EAAE5EE4E2DD825D084BFED606C1E5 /* Pods-KVLoading_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KVLoading_Example.modulemap"; sourceTree = "<group>"; };
+		F5EAAE5EE4E2DD825D084BFED606C1E5 /* Pods-KVLoading_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KVLoading_Example.modulemap"; sourceTree = "<group>"; };
 		FD38E9FA8FAE5C87CA017583909C9D0D /* Pods-KVLoading_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KVLoading_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -299,7 +299,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 1010;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -372,6 +372,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -379,6 +380,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -476,7 +478,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -529,6 +531,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -536,6 +539,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -566,6 +570,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -594,7 +599,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
