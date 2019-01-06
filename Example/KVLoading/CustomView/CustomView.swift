@@ -1,9 +1,5 @@
 //
 //  CustomView.swift
-//  KVLoading
-//
-//  Created by Vu Van Khac on 2/22/17.
-//  Copyright © 2017 CocoaPods. All rights reserved.
 //
 
 import UIKit

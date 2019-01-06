@@ -1,9 +1,5 @@
 //
 //  ViewController.swift
-//  KVLoading
-//
-//  Created by vuvankhac on 02/22/2017.
-//  Copyright (c) 2017 vuvankhac. All rights reserved.
 //
 
 import UIKit
