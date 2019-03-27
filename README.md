@@ -10,8 +10,8 @@
 
 ## Requirements
 
-* iOS 8.0+
-* Swift 3.0 or later
+* iOS 10.0+
+* Swift 5.0
 
 ## Installation
 
@@ -19,7 +19,7 @@ KVLoading is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'KVLoading', '~> 1.8'
+pod 'KVLoading', '~> 1.9'
 ```
 
 ## Usage

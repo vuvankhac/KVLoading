@@ -28,8 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/vuvankhac/KVLoading.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/vuvankhac'
 
-  s.ios.deployment_target = '8.0'
-  s.swift_version = '4.2'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'KVLoading/Classes/**/*'
   

@@ -1,7 +1,24 @@
-//
-//  Edited by Vu Van Khac.
-//  https://www.facebook.com/vuvankhac.official
-//
+/**
+ Copyright (c) 2017 vuvankhac <khacvv0451@gmail.com>
+ 
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ 
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ 
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+ */
 
 import UIKit
 
@@ -17,7 +34,7 @@ public class KVLoading: UIView {
     
     public var isShowing: Bool {
         get {
-            guard let contentView = self.contentView else {
+            guard let contentView = contentView else {
                 return false
             }
             
@@ -57,7 +74,7 @@ public class KVLoading: UIView {
     }
     
     public static func show(_ customView: UIView? = nil, animated: Bool = true) {
-        self.shared.show(customView, animated: animated)
+        shared.show(customView, animated: animated)
     }
     
     func show(_ customView: UIView? = nil, animated: Bool = true) {
@@ -105,10 +122,10 @@ public class KVLoading: UIView {
     }
     
     public static func showInView(view: UIView, customView: UIView? = nil, animated: Bool = true) {
-        self.shared.showInView(view: view, customView, animated: animated)
+        shared.showInView(view: view, customView: customView, animated: animated)
     }
     
-    func showInView(view: UIView, _ customView: UIView? = nil, animated: Bool = true) {
+    func showInView(view: UIView, customView: UIView? = nil, animated: Bool = true) {
         if isShowing {
             return
         }
@@ -135,7 +152,7 @@ public class KVLoading: UIView {
             contentView = KVLoadingView()
         }
         
-        guard let contentView = self.contentView else {
+        guard let contentView = contentView else {
             return
         }
         
@@ -159,7 +176,7 @@ public class KVLoading: UIView {
     }
     
     public static func hide(animated: Bool = true) {
-        self.shared.hide(animated: animated)
+        shared.hide(animated: animated)
     }
     
     func hide(animated: Bool = true) {
@@ -193,7 +210,7 @@ class KVLoadingView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.addSubview(self.contentView())
+        addSubview(contentView())
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -218,5 +235,4 @@ class KVLoadingView: UIView {
         
         return contentView
     }
-    
 }

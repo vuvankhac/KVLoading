@@ -12,9 +12,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showDefaultLoadingAction(_ sender: Any) {
-        KVLoading.show()
+        // Extension.
+        showLoading()
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-            KVLoading.hide()
+            self.hideLoading()
         }
     }
     
