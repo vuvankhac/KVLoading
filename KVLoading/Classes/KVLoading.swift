@@ -46,6 +46,8 @@ public class KVLoading: UIView {
         }
     }
     
+    lazy var masterView = UIView()
+    
     lazy var keyView: UIView = {
         if let view = UIApplication.shared.keyWindow {
             return view
@@ -70,7 +72,7 @@ public class KVLoading: UIView {
             return
         }
         
-        contentView.center = keyView.center
+        contentView.center = masterView.center
     }
     
     public static func show(_ customView: UIView? = nil, animated: Bool = true) {
@@ -82,13 +84,14 @@ public class KVLoading: UIView {
             return
         }
         
+        masterView = keyView
         backgroundView = UIView()
         if let backgroundView = backgroundView {
             backgroundView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-            backgroundView.frame = keyView.bounds
+            backgroundView.frame = masterView.bounds
             backgroundView.isUserInteractionEnabled = true
             backgroundView.backgroundColor = .black
-            keyView.addSubview(backgroundView)
+            masterView.addSubview(backgroundView)
             
             backgroundView.alpha = 0
             UIView.animate(withDuration: 0.3, animations: {
@@ -109,8 +112,8 @@ public class KVLoading: UIView {
         }
         
         contentView.alpha = 0
-        contentView.center = keyView.center
-        keyView.addSubview(contentView)
+        contentView.center = masterView.center
+        masterView.addSubview(contentView)
         
         if animated {
             UIView.animate(withDuration: 0.3, animations: {
@@ -130,6 +133,7 @@ public class KVLoading: UIView {
             return
         }
         
+        masterView = view
         backgroundView = UIView()
         if let backgroundView = backgroundView {
             backgroundView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
@@ -160,10 +164,10 @@ public class KVLoading: UIView {
         contentView.center = view.center
         view.addSubview(contentView)
         if let customView = customView {
-            let horizontalConstraint = NSLayoutConstraint(item: customView, attribute: .centerX, relatedBy: .equal, toItem: keyView, attribute: .centerX, multiplier: 1, constant: 0)
-            let verticalConstraint = NSLayoutConstraint(item: customView, attribute: .centerY, relatedBy: .equal, toItem: keyView, attribute: .centerY, multiplier: 1, constant: 0)
-            keyView.addConstraint(horizontalConstraint)
-            keyView.addConstraint(verticalConstraint)
+            let horizontalConstraint = NSLayoutConstraint(item: customView, attribute: .centerX, relatedBy: .equal, toItem: masterView, attribute: .centerX, multiplier: 1, constant: 0)
+            let verticalConstraint = NSLayoutConstraint(item: customView, attribute: .centerY, relatedBy: .equal, toItem: masterView, attribute: .centerY, multiplier: 1, constant: 0)
+            masterView.addConstraint(horizontalConstraint)
+            masterView.addConstraint(verticalConstraint)
         }
         
         if animated {

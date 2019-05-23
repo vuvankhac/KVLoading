@@ -33,7 +33,7 @@
 
 /* Begin PBXFileReference section */
 		30309E6237AC21386B42ADDA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		335AAEF85E672D051826F51B /* KVLoading.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KVLoading.podspec; path = ../KVLoading.podspec; sourceTree = "<group>"; };
+		335AAEF85E672D051826F51B /* KVLoading.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KVLoading.podspec; path = ../KVLoading.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* KVLoading_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVLoading_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
