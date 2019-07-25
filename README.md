@@ -26,34 +26,34 @@ pod 'KVLoading', '~> 2.0.3'
 
 Show default loading:
 ```swift
-KVLoading.show()
+KVLoading.shared.show()
 ```
 
 Show default loading without animation:
 ```swift
-KVLoading.show(animated: false)
+KVLoading.shared.show(animated: false)
 ```
 
 Show custom view loading:
 ```swift
 let customView: UIView = UIView()
-KVLoading.show(customView)
+KVLoading.shared.show(customView)
 ```
 
 Show custom view loading without animation:
 ```swift
 let customView: UIView = UIView()
-KVLoading.show(customView, animated: false)
+KVLoading.shared.show(customView, animated: false)
 ```
 
 Hide loading view:
 ```swift
-KVLoading.hide()
+KVLoading.shared.hide()
 ```
 
 Hide loading view without animation:
 ```swift
-KVLoading.hide(animated: false)
+KVLoading.shared.hide(animated: false)
 ```
 
 ## Author
