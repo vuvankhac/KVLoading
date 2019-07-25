@@ -19,7 +19,7 @@ KVLoading is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'KVLoading', '~> 2.0.2'
+pod 'KVLoading', '~> 2.0.3'
 ```
 
 ## Usage

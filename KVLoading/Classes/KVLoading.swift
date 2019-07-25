@@ -24,7 +24,7 @@ import UIKit
 
 public class KVLoading: UIView {
     
-    class var shared: KVLoading {
+    public class var shared: KVLoading {
         struct Static {
             static let shared = KVLoading()
         }
@@ -75,11 +75,7 @@ public class KVLoading: UIView {
         contentView.center = masterView.center
     }
     
-    public static func show(_ customView: UIView? = nil, animated: Bool = true) {
-        shared.show(customView, animated: animated)
-    }
-    
-    func show(_ customView: UIView? = nil, animated: Bool = true) {
+    public func show(_ customView: UIView? = nil, animated: Bool = true) {
         if isShowing {
             return
         }
@@ -124,11 +120,7 @@ public class KVLoading: UIView {
         }
     }
     
-    public static func showInView(view: UIView, customView: UIView? = nil, animated: Bool = true) {
-        shared.showInView(view: view, customView: customView, animated: animated)
-    }
-    
-    func showInView(view: UIView, customView: UIView? = nil, animated: Bool = true) {
+    public func showInView(view: UIView, customView: UIView? = nil, animated: Bool = true) {
         if isShowing {
             return
         }
@@ -179,11 +171,7 @@ public class KVLoading: UIView {
         }
     }
     
-    public static func hide(animated: Bool = true) {
-        shared.hide(animated: animated)
-    }
-    
-    func hide(animated: Bool = true) {
+    public func hide(animated: Bool = true) {
         if !isShowing {
             return
         }

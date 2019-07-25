@@ -7,6 +7,8 @@ import KVLoading
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var containerView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -21,9 +23,17 @@ class ViewController: UIViewController {
     
     @IBAction func showCustomLoadingAction(_ sender: Any?) {
         let customView: CustomView = CustomView.loadFromNib()
-        KVLoading.showInView(view: view, customView: customView)
+        showLoadingInView(view, customView: customView)
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-            KVLoading.hide()
+            self.hideLoading()
+        }
+    }
+    
+    @IBAction func showLoadingInViewAction(_ sender: Any?) {
+        let customView: CustomView = CustomView.loadFromNib()
+        showLoadingInView(containerView, customView: customView)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            self.hideLoading()
         }
     }
 }

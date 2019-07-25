@@ -1,5 +1,5 @@
 PODS:
-  - KVLoading (2.0.1)
+  - KVLoading (2.0.2)
 
 DEPENDENCIES:
   - KVLoading (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KVLoading: 3708df9911716cdfe96c86f7257b31297538489f
+  KVLoading: 0c1d08fe0aeb3c59b86c2ec3c46c45861ea3f64a
 
 PODFILE CHECKSUM: 0de2781ccbd649e38bf61bbd48c2819239718665
 
