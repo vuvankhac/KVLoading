@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KVLoading'
-  s.version          = '2.0.3'
+  s.version          = '3.0.0'
   s.summary          = 'Loading screen for Swift.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/vuvankhac/KVLoading.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/vuvankhac'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '14.0'
 
   s.source_files = 'KVLoading/Classes/**/*'
   

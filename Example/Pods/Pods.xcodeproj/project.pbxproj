@@ -7,95 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04A5C340D7E9EDA4CFEF4BCCDAFAF376 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
-		1443F93F95F27AA6D1D15B44AE17CAE4 /* Pods-KVLoading_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B87FDDC0607DF95A21BEB2A33592E46 /* Pods-KVLoading_Tests-dummy.m */; };
-		20BA6D7E7330ECF0349DD68589E23CF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		35278F813E02FBF702311EA9E53C6451 /* Pods-KVLoading_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BA08A4CD4F912F767EBCCB31F1691C2 /* Pods-KVLoading_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92CC418CFE2768166A4829A5C6A12DB8 /* KVLoading-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B43E9DAF22AE680947A18C83C20EAFC /* KVLoading-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A47DA4D3A99430C479F5409004C36564 /* Pods-KVLoading_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22102A402B39AA37FC53F62D89C1BC6A /* Pods-KVLoading_Example-dummy.m */; };
-		A4D740DA548D99A444F6A1C8AD3F40C1 /* Pods-KVLoading_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A57148845F739A25B23938073E5411FE /* Pods-KVLoading_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE7CF1D1975D67A7CC7F25D693D1398E /* KVLoading-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8445BDC28F3D58F1204F0C5E48A347 /* KVLoading-dummy.m */; };
-		C34BE221C4D017E2B141762663AA01F1 /* KVLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED988EDC33B1B4C530CCFC01A31A9BCE /* KVLoading.swift */; };
-		C78DD3C766B1AA6427DAF3F34F52AE43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		DED1FF445975D50A931BE14FD1C210D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		09B6C546608C88E44049DE34C23CD425 /* KVLoading-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F89E5348EC0F351FF4AF4A39BD7B0E /* KVLoading-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11146F79F8DAD2A975C6E1D513A74DEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		134ACD752BFA623701D1689409712903 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */; };
+		14294F616C83E66BC9A4F5D90909BD81 /* Pods-KVLoading_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D5606BADEC0B628491E1DC019725F99 /* Pods-KVLoading_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16B4019C5274B5DF28BE5926429D0BDD /* Pods-KVLoading_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6EEC3AD1D516AF311A6ACF59E5B911 /* Pods-KVLoading_Example-dummy.m */; };
+		4B05A97FCF4026E4DBBBA0D6A74C3C0D /* Pods-KVLoading_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 497804CA864473EAF1B509A35CE22D55 /* Pods-KVLoading_Tests-dummy.m */; };
+		76848A113559C89F4D30501415C7EE32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		86B8BBBF1B98CA748B627079C0685CC0 /* KVLoading-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A40070FAB7981C4288FA69AE4349EF7F /* KVLoading-dummy.m */; };
+		8D956A2159DAAE6902AE5A164FB6F20D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		BA3B5128E0D91EF1F657C4F918FF55EC /* KVLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957DD43DE660A317B27BAF69FBB71110 /* KVLoading.swift */; };
+		CF8A3983ADD6BDBBF89B9521A93E95EA /* Pods-KVLoading_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B4EB2198DAE11AEE0B99D1967781B0 /* Pods-KVLoading_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E60DEA0A693FE637AB8379CA0629A30B /* KVLoading+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C723EE3B822B410D4A37EBA68273FB4 /* KVLoading+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		33256ED1FD22CA05D145E5E1C9532BD5 /* PBXContainerItemProxy */ = {
+		1214875D42F1F1636CADE35B2D897C12 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B2BA4A23216217C042D498825E619C6A;
+			remoteGlobalIDString = 1C97A403DC0AC31248B7BC8DFA413288;
 			remoteInfo = KVLoading;
 		};
-		EE4702E7D11A3D65CAF637D568119ABC /* PBXContainerItemProxy */ = {
+		3F2A4E48A3C4177254E8AA85157EB9B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 04812FEB69699CC0885CC8AB6CE291EB;
+			remoteGlobalIDString = 51F89085730760F4294FBBB25AE3F5B3;
 			remoteInfo = "Pods-KVLoading_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06E8BE3AD0201D5F965201B1D989C3AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		0DF03B2382A685827EFD418E5F36A1BD /* KVLoading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KVLoading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		22102A402B39AA37FC53F62D89C1BC6A /* Pods-KVLoading_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KVLoading_Example-dummy.m"; sourceTree = "<group>"; };
-		3B5CDD933B64144377C0F931557DDC1D /* Pods-KVLoading_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KVLoading_Example-Info.plist"; sourceTree = "<group>"; };
-		3C51EEFFAC6C984D4B16A2D3F7323E38 /* Pods-KVLoading_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KVLoading_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4B43E9DAF22AE680947A18C83C20EAFC /* KVLoading-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVLoading-umbrella.h"; sourceTree = "<group>"; };
-		4B87FDDC0607DF95A21BEB2A33592E46 /* Pods-KVLoading_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KVLoading_Tests-dummy.m"; sourceTree = "<group>"; };
-		4FA7A514E92001DFE3C0E14200BA6931 /* KVLoading-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KVLoading-Info.plist"; sourceTree = "<group>"; };
-		5336BC934B1FED4E6F5959F329A6F9C2 /* KVLoading.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KVLoading.modulemap; sourceTree = "<group>"; };
-		543AE2DD58B897EA70BEBD5171E1609E /* Pods_KVLoading_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVLoading_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		65D065E875FF213E0D758CBA9B59DF25 /* KVLoading.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVLoading.xcconfig; sourceTree = "<group>"; };
-		67C248389A6B2FEF3B4B9BDED4344CF5 /* Pods_KVLoading_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVLoading_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		695C3DCF4EFD81983ED82D4E3263E78C /* Pods-KVLoading_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KVLoading_Tests.modulemap"; sourceTree = "<group>"; };
-		718ED0DBAFA4B96991CF0DDEB6AE3DF5 /* Pods-KVLoading_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KVLoading_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7BA08A4CD4F912F767EBCCB31F1691C2 /* Pods-KVLoading_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KVLoading_Example-umbrella.h"; sourceTree = "<group>"; };
-		7C8445BDC28F3D58F1204F0C5E48A347 /* KVLoading-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVLoading-dummy.m"; sourceTree = "<group>"; };
-		86E6527F4CEFB112B74ACB46ECBCE3CB /* Pods-KVLoading_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVLoading_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9ABC5AB18316AA503622648D612A503A /* Pods-KVLoading_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KVLoading_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E23E0B068B9B42F45967C44CA5CB08B /* Pods-KVLoading_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KVLoading_Tests-Info.plist"; sourceTree = "<group>"; };
-		A485C98FD55F34713768A9DB692B0621 /* KVLoading.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KVLoading.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A57148845F739A25B23938073E5411FE /* Pods-KVLoading_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KVLoading_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B8C8823401479A6F0C07D62B6C259B7E /* Pods-KVLoading_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVLoading_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CCE394127C83EF6F0C765BB1DFBC4EDF /* Pods-KVLoading_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KVLoading_Example.modulemap"; sourceTree = "<group>"; };
-		D05CD7F4AAD71071DBDB82752FD79AE7 /* Pods-KVLoading_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVLoading_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D35F9E11C258643CECB6F725F2EA5984 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		D636FD19F815C3D04E8A5FE2E9630362 /* KVLoading-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVLoading-prefix.pch"; sourceTree = "<group>"; };
-		EAA2DE0FEDEBDC37F70E5A041E5102C0 /* Pods-KVLoading_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KVLoading_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ECC23129807BAB0407DCF299BD1BC891 /* Pods-KVLoading_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVLoading_Example.release.xcconfig"; sourceTree = "<group>"; };
-		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		ED988EDC33B1B4C530CCFC01A31A9BCE /* KVLoading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KVLoading.swift; path = KVLoading/Classes/KVLoading.swift; sourceTree = "<group>"; };
-		F4F953B32D8AFB8A1D53BC00E5DFE791 /* Pods-KVLoading_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KVLoading_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0B8A314D042BCBF880021FFA0C1DF381 /* Pods-KVLoading_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KVLoading_Tests-Info.plist"; sourceTree = "<group>"; };
+		19D8703C0CBC2BC0AACDB9A6021C78B1 /* KVLoading */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KVLoading; path = KVLoading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C723EE3B822B410D4A37EBA68273FB4 /* KVLoading+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "KVLoading+Extension.swift"; path = "KVLoading/Classes/KVLoading+Extension.swift"; sourceTree = "<group>"; };
+		1F7D4A978D563F8905A4D62CD109618A /* Pods-KVLoading_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KVLoading_Tests.modulemap"; sourceTree = "<group>"; };
+		229F6A06BC5E726AE08AC6A448AEE42E /* KVLoading.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVLoading.debug.xcconfig; sourceTree = "<group>"; };
+		27B4EB2198DAE11AEE0B99D1967781B0 /* Pods-KVLoading_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KVLoading_Example-umbrella.h"; sourceTree = "<group>"; };
+		2B85FFCF4B4F5BE70AA7FF4ED3031D74 /* Pods-KVLoading_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KVLoading_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		310043B25477719846207BC05F5E4D06 /* KVLoading.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KVLoading.modulemap; sourceTree = "<group>"; };
+		497804CA864473EAF1B509A35CE22D55 /* Pods-KVLoading_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KVLoading_Tests-dummy.m"; sourceTree = "<group>"; };
+		52F89E5348EC0F351FF4AF4A39BD7B0E /* KVLoading-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVLoading-umbrella.h"; sourceTree = "<group>"; };
+		71516D01298427D5A1EBF5FB1DBCCD68 /* Pods-KVLoading_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVLoading_Example.release.xcconfig"; sourceTree = "<group>"; };
+		79BD38CA929B3398C8F62B7777057CA6 /* Pods-KVLoading_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KVLoading_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8833A8BFFE027C6E8B13D659F5D3D76E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		89B904F3327DD88886996AD72A6CF340 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		957DD43DE660A317B27BAF69FBB71110 /* KVLoading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KVLoading.swift; path = KVLoading/Classes/KVLoading.swift; sourceTree = "<group>"; };
+		9D5606BADEC0B628491E1DC019725F99 /* Pods-KVLoading_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KVLoading_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A40070FAB7981C4288FA69AE4349EF7F /* KVLoading-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVLoading-dummy.m"; sourceTree = "<group>"; };
+		B0FDDFBBE56F72C3E657819D737EAA36 /* Pods-KVLoading_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KVLoading_Example"; path = Pods_KVLoading_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1D2C0E0D2C26495DE9AD816EEF9339 /* KVLoading.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KVLoading.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBB0932BD439657B2DA88B182DA3E980 /* KVLoading-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVLoading-prefix.pch"; sourceTree = "<group>"; };
+		C38D80E54DB02EB5A46E2F5394E8A43D /* KVLoading-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KVLoading-Info.plist"; sourceTree = "<group>"; };
+		C574C2E6981D47F70704AFCE5A1DD8D4 /* Pods-KVLoading_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KVLoading_Tests"; path = Pods_KVLoading_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC828F249BB2CC82DADAFE75DE864985 /* Pods-KVLoading_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KVLoading_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D5CAEE20420B26F098576BEE0FA97F71 /* Pods-KVLoading_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVLoading_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DC41766EDE2B9DF13F9C410E51A61E44 /* Pods-KVLoading_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVLoading_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DE6EEC3AD1D516AF311A6ACF59E5B911 /* Pods-KVLoading_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KVLoading_Example-dummy.m"; sourceTree = "<group>"; };
+		ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EE0CA4FA2E0C0ECBA3F508E94D135700 /* Pods-KVLoading_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KVLoading_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EEDE677BD9D75759BC2FCB30D37F07C5 /* KVLoading.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVLoading.release.xcconfig; sourceTree = "<group>"; };
+		EF4F94A5A9B7C995356462453F99BFB3 /* Pods-KVLoading_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVLoading_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFAFF73DD60B302BAC0F6AFB1344CDB4 /* Pods-KVLoading_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KVLoading_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F849935BB213B00C88351033E54E1A6E /* Pods-KVLoading_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KVLoading_Example.modulemap"; sourceTree = "<group>"; };
+		F9B5D7E4994481FA958C1ED651B5B307 /* Pods-KVLoading_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KVLoading_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		56A0D3729654390A1C520C51F1E14146 /* Frameworks */ = {
+		5D5AB09A3873A938338DD80833CA62DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20BA6D7E7330ECF0349DD68589E23CF5 /* Foundation.framework in Frameworks */,
-				04A5C340D7E9EDA4CFEF4BCCDAFAF376 /* UIKit.framework in Frameworks */,
+				76848A113559C89F4D30501415C7EE32 /* Foundation.framework in Frameworks */,
+				134ACD752BFA623701D1689409712903 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99B6EBE6EEE495AC07A2AB6F60F8975A /* Frameworks */ = {
+		81A20C60A09A35124149DE3D072656F7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DED1FF445975D50A931BE14FD1C210D3 /* Foundation.framework in Frameworks */,
+				8D956A2159DAAE6902AE5A164FB6F20D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5A39AAEC9705419B9506759258BC3C1 /* Frameworks */ = {
+		FC2028A9F1A64D947B3EA08C856C8379 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C78DD3C766B1AA6427DAF3F34F52AE43 /* Foundation.framework in Frameworks */,
+				11146F79F8DAD2A975C6E1D513A74DEF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,202 +108,166 @@
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
+				1DE6440B6853131A80C53DDA34375AAB /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DE6440B6853131A80C53DDA34375AAB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */,
+				ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		3007B275FF9C98AB1CC0382FF362CEF0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				67A4EC9504D3C6204FC63888600A7CF3 /* Pods-KVLoading_Example */,
-				9526DA7BF82C05194C0C32C025ACD789 /* Pods-KVLoading_Tests */,
+				D91260D8562934F2A1402938ECC22C60 /* Pods-KVLoading_Example */,
+				3D5140830525B8F611D371A6BB9069AA /* Pods-KVLoading_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		67A4EC9504D3C6204FC63888600A7CF3 /* Pods-KVLoading_Example */ = {
+		3918C6F64F57E3A35FD392396A8B2EDE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CCE394127C83EF6F0C765BB1DFBC4EDF /* Pods-KVLoading_Example.modulemap */,
-				EAA2DE0FEDEBDC37F70E5A041E5102C0 /* Pods-KVLoading_Example-acknowledgements.markdown */,
-				3C51EEFFAC6C984D4B16A2D3F7323E38 /* Pods-KVLoading_Example-acknowledgements.plist */,
-				22102A402B39AA37FC53F62D89C1BC6A /* Pods-KVLoading_Example-dummy.m */,
-				F4F953B32D8AFB8A1D53BC00E5DFE791 /* Pods-KVLoading_Example-frameworks.sh */,
-				3B5CDD933B64144377C0F931557DDC1D /* Pods-KVLoading_Example-Info.plist */,
-				7BA08A4CD4F912F767EBCCB31F1691C2 /* Pods-KVLoading_Example-umbrella.h */,
-				D05CD7F4AAD71071DBDB82752FD79AE7 /* Pods-KVLoading_Example.debug.xcconfig */,
-				ECC23129807BAB0407DCF299BD1BC891 /* Pods-KVLoading_Example.release.xcconfig */,
+				19D8703C0CBC2BC0AACDB9A6021C78B1 /* KVLoading */,
+				B0FDDFBBE56F72C3E657819D737EAA36 /* Pods-KVLoading_Example */,
+				C574C2E6981D47F70704AFCE5A1DD8D4 /* Pods-KVLoading_Tests */,
 			);
-			name = "Pods-KVLoading_Example";
-			path = "Target Support Files/Pods-KVLoading_Example";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		705058F74D0F2F4147D09ABC255C9981 /* Pod */ = {
+		3D5140830525B8F611D371A6BB9069AA /* Pods-KVLoading_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				A485C98FD55F34713768A9DB692B0621 /* KVLoading.podspec */,
-				D35F9E11C258643CECB6F725F2EA5984 /* LICENSE */,
-				06E8BE3AD0201D5F965201B1D989C3AD /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		9526DA7BF82C05194C0C32C025ACD789 /* Pods-KVLoading_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				695C3DCF4EFD81983ED82D4E3263E78C /* Pods-KVLoading_Tests.modulemap */,
-				718ED0DBAFA4B96991CF0DDEB6AE3DF5 /* Pods-KVLoading_Tests-acknowledgements.markdown */,
-				9ABC5AB18316AA503622648D612A503A /* Pods-KVLoading_Tests-acknowledgements.plist */,
-				4B87FDDC0607DF95A21BEB2A33592E46 /* Pods-KVLoading_Tests-dummy.m */,
-				9E23E0B068B9B42F45967C44CA5CB08B /* Pods-KVLoading_Tests-Info.plist */,
-				A57148845F739A25B23938073E5411FE /* Pods-KVLoading_Tests-umbrella.h */,
-				B8C8823401479A6F0C07D62B6C259B7E /* Pods-KVLoading_Tests.debug.xcconfig */,
-				86E6527F4CEFB112B74ACB46ECBCE3CB /* Pods-KVLoading_Tests.release.xcconfig */,
+				1F7D4A978D563F8905A4D62CD109618A /* Pods-KVLoading_Tests.modulemap */,
+				EFAFF73DD60B302BAC0F6AFB1344CDB4 /* Pods-KVLoading_Tests-acknowledgements.markdown */,
+				79BD38CA929B3398C8F62B7777057CA6 /* Pods-KVLoading_Tests-acknowledgements.plist */,
+				497804CA864473EAF1B509A35CE22D55 /* Pods-KVLoading_Tests-dummy.m */,
+				0B8A314D042BCBF880021FFA0C1DF381 /* Pods-KVLoading_Tests-Info.plist */,
+				9D5606BADEC0B628491E1DC019725F99 /* Pods-KVLoading_Tests-umbrella.h */,
+				EF4F94A5A9B7C995356462453F99BFB3 /* Pods-KVLoading_Tests.debug.xcconfig */,
+				DC41766EDE2B9DF13F9C410E51A61E44 /* Pods-KVLoading_Tests.release.xcconfig */,
 			);
 			name = "Pods-KVLoading_Tests";
 			path = "Target Support Files/Pods-KVLoading_Tests";
 			sourceTree = "<group>";
 		};
-		B5B5B2D9F0FD76E2074820A690F166E6 /* Products */ = {
+		89040A4F64D8326BF078B92E43864062 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0DF03B2382A685827EFD418E5F36A1BD /* KVLoading.framework */,
-				67C248389A6B2FEF3B4B9BDED4344CF5 /* Pods_KVLoading_Example.framework */,
-				543AE2DD58B897EA70BEBD5171E1609E /* Pods_KVLoading_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C7C940C6105C9C3BF7C25FA432EBFC54 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F406F482E937805A52BDEC80CD92AB57 /* KVLoading */,
+				E74D8980E9BA3A58737C31F280E0B53A /* KVLoading */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BA0BB69E098D9223E24ECA5B7B583919 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BB1D2C0E0D2C26495DE9AD816EEF9339 /* KVLoading.podspec */,
+				8833A8BFFE027C6E8B13D659F5D3D76E /* LICENSE */,
+				89B904F3327DD88886996AD72A6CF340 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C410356EAAF5B3F882FBF2719F34E956 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				310043B25477719846207BC05F5E4D06 /* KVLoading.modulemap */,
+				A40070FAB7981C4288FA69AE4349EF7F /* KVLoading-dummy.m */,
+				C38D80E54DB02EB5A46E2F5394E8A43D /* KVLoading-Info.plist */,
+				BBB0932BD439657B2DA88B182DA3E980 /* KVLoading-prefix.pch */,
+				52F89E5348EC0F351FF4AF4A39BD7B0E /* KVLoading-umbrella.h */,
+				229F6A06BC5E726AE08AC6A448AEE42E /* KVLoading.debug.xcconfig */,
+				EEDE677BD9D75759BC2FCB30D37F07C5 /* KVLoading.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KVLoading";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C7C940C6105C9C3BF7C25FA432EBFC54 /* Development Pods */,
+				89040A4F64D8326BF078B92E43864062 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				B5B5B2D9F0FD76E2074820A690F166E6 /* Products */,
+				3918C6F64F57E3A35FD392396A8B2EDE /* Products */,
 				3007B275FF9C98AB1CC0382FF362CEF0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
+		D91260D8562934F2A1402938ECC22C60 /* Pods-KVLoading_Example */ = {
 			isa = PBXGroup;
 			children = (
-				40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */,
-				ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */,
+				F849935BB213B00C88351033E54E1A6E /* Pods-KVLoading_Example.modulemap */,
+				EE0CA4FA2E0C0ECBA3F508E94D135700 /* Pods-KVLoading_Example-acknowledgements.markdown */,
+				2B85FFCF4B4F5BE70AA7FF4ED3031D74 /* Pods-KVLoading_Example-acknowledgements.plist */,
+				DE6EEC3AD1D516AF311A6ACF59E5B911 /* Pods-KVLoading_Example-dummy.m */,
+				CC828F249BB2CC82DADAFE75DE864985 /* Pods-KVLoading_Example-frameworks.sh */,
+				F9B5D7E4994481FA958C1ED651B5B307 /* Pods-KVLoading_Example-Info.plist */,
+				27B4EB2198DAE11AEE0B99D1967781B0 /* Pods-KVLoading_Example-umbrella.h */,
+				D5CAEE20420B26F098576BEE0FA97F71 /* Pods-KVLoading_Example.debug.xcconfig */,
+				71516D01298427D5A1EBF5FB1DBCCD68 /* Pods-KVLoading_Example.release.xcconfig */,
 			);
-			name = iOS;
+			name = "Pods-KVLoading_Example";
+			path = "Target Support Files/Pods-KVLoading_Example";
 			sourceTree = "<group>";
 		};
-		F406F482E937805A52BDEC80CD92AB57 /* KVLoading */ = {
+		E74D8980E9BA3A58737C31F280E0B53A /* KVLoading */ = {
 			isa = PBXGroup;
 			children = (
-				ED988EDC33B1B4C530CCFC01A31A9BCE /* KVLoading.swift */,
-				705058F74D0F2F4147D09ABC255C9981 /* Pod */,
-				FDB3342B0EED7B5897E839CBC9D4C7B1 /* Support Files */,
+				957DD43DE660A317B27BAF69FBB71110 /* KVLoading.swift */,
+				1C723EE3B822B410D4A37EBA68273FB4 /* KVLoading+Extension.swift */,
+				BA0BB69E098D9223E24ECA5B7B583919 /* Pod */,
+				C410356EAAF5B3F882FBF2719F34E956 /* Support Files */,
 			);
 			name = KVLoading;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		FDB3342B0EED7B5897E839CBC9D4C7B1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5336BC934B1FED4E6F5959F329A6F9C2 /* KVLoading.modulemap */,
-				65D065E875FF213E0D758CBA9B59DF25 /* KVLoading.xcconfig */,
-				7C8445BDC28F3D58F1204F0C5E48A347 /* KVLoading-dummy.m */,
-				4FA7A514E92001DFE3C0E14200BA6931 /* KVLoading-Info.plist */,
-				D636FD19F815C3D04E8A5FE2E9630362 /* KVLoading-prefix.pch */,
-				4B43E9DAF22AE680947A18C83C20EAFC /* KVLoading-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KVLoading";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		13DA0800FCEC110E6B3FF7BDD03DD012 /* Headers */ = {
+		5402D9C3632AC1FA98F35FA6917AB564 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92CC418CFE2768166A4829A5C6A12DB8 /* KVLoading-umbrella.h in Headers */,
+				CF8A3983ADD6BDBBF89B9521A93E95EA /* Pods-KVLoading_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3EDCF14FC12B3DCE9CCE16DB6D21956F /* Headers */ = {
+		833D4E3F4BEEE7BC52E90AF01D782970 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35278F813E02FBF702311EA9E53C6451 /* Pods-KVLoading_Example-umbrella.h in Headers */,
+				14294F616C83E66BC9A4F5D90909BD81 /* Pods-KVLoading_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6B8D78DE005E0C960EFC59889BAE854 /* Headers */ = {
+		B9074ED8B4E62EE29556B15B29639914 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4D740DA548D99A444F6A1C8AD3F40C1 /* Pods-KVLoading_Tests-umbrella.h in Headers */,
+				09B6C546608C88E44049DE34C23CD425 /* KVLoading-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		04812FEB69699CC0885CC8AB6CE291EB /* Pods-KVLoading_Example */ = {
+		1C97A403DC0AC31248B7BC8DFA413288 /* KVLoading */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF3B16D5457C7C57D230FA0F5B709DBF /* Build configuration list for PBXNativeTarget "Pods-KVLoading_Example" */;
+			buildConfigurationList = B10E952C0F9CF26CF12653F84B9B65B3 /* Build configuration list for PBXNativeTarget "KVLoading" */;
 			buildPhases = (
-				3EDCF14FC12B3DCE9CCE16DB6D21956F /* Headers */,
-				1B25DD6AB6663FDEEADF98EF4772CA31 /* Sources */,
-				B5A39AAEC9705419B9506759258BC3C1 /* Frameworks */,
-				E3137416EADF0B43F967A50B559D75BE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				299C5C1F2846E9C28D6D1C562A01EC3D /* PBXTargetDependency */,
-			);
-			name = "Pods-KVLoading_Example";
-			productName = "Pods-KVLoading_Example";
-			productReference = 67C248389A6B2FEF3B4B9BDED4344CF5 /* Pods_KVLoading_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		0E661D2F268DCB19A4585676607CE533 /* Pods-KVLoading_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 42BA44E050CB1A794422FB43EE961351 /* Build configuration list for PBXNativeTarget "Pods-KVLoading_Tests" */;
-			buildPhases = (
-				D6B8D78DE005E0C960EFC59889BAE854 /* Headers */,
-				AF9ED41A1178C250B10CB3A959419881 /* Sources */,
-				99B6EBE6EEE495AC07A2AB6F60F8975A /* Frameworks */,
-				213993F1B604258C79EE6733209640C2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D74D97738D1B69DA196F041367685332 /* PBXTargetDependency */,
-			);
-			name = "Pods-KVLoading_Tests";
-			productName = "Pods-KVLoading_Tests";
-			productReference = 543AE2DD58B897EA70BEBD5171E1609E /* Pods_KVLoading_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B2BA4A23216217C042D498825E619C6A /* KVLoading */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D45F995507C330227AE0EEFBBC509352 /* Build configuration list for PBXNativeTarget "KVLoading" */;
-			buildPhases = (
-				13DA0800FCEC110E6B3FF7BDD03DD012 /* Headers */,
-				8943464F69D3D126CF04AF2DEA56A64D /* Sources */,
-				56A0D3729654390A1C520C51F1E14146 /* Frameworks */,
-				2A39CB2FDC61AE7C70CA428E028BF95B /* Resources */,
+				B9074ED8B4E62EE29556B15B29639914 /* Headers */,
+				E979DD80C7AB5B9646EF383205A18461 /* Sources */,
+				5D5AB09A3873A938338DD80833CA62DE /* Frameworks */,
+				DE05A9B0A031C5F64E672AECF0435F6F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -308,7 +275,45 @@
 			);
 			name = KVLoading;
 			productName = KVLoading;
-			productReference = 0DF03B2382A685827EFD418E5F36A1BD /* KVLoading.framework */;
+			productReference = 19D8703C0CBC2BC0AACDB9A6021C78B1 /* KVLoading */;
+			productType = "com.apple.product-type.framework";
+		};
+		51F89085730760F4294FBBB25AE3F5B3 /* Pods-KVLoading_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95794DCA0709B160261DF7017ED37FE3 /* Build configuration list for PBXNativeTarget "Pods-KVLoading_Example" */;
+			buildPhases = (
+				5402D9C3632AC1FA98F35FA6917AB564 /* Headers */,
+				439EEBFAFF689C827BBA18858E3BCEB1 /* Sources */,
+				81A20C60A09A35124149DE3D072656F7 /* Frameworks */,
+				5E53E38421611D67398C2EEE45742356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				006B76AB0F5BE6EB77D5CD780436FD8A /* PBXTargetDependency */,
+			);
+			name = "Pods-KVLoading_Example";
+			productName = Pods_KVLoading_Example;
+			productReference = B0FDDFBBE56F72C3E657819D737EAA36 /* Pods-KVLoading_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7A747743E8D131D37C66C7FE2001BC4 /* Pods-KVLoading_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D4C51DFE69E2ECA6AA2305F7146FDF6 /* Build configuration list for PBXNativeTarget "Pods-KVLoading_Tests" */;
+			buildPhases = (
+				833D4E3F4BEEE7BC52E90AF01D782970 /* Headers */,
+				97C83A9EA33AC0E88191A9F3DBD5679B /* Sources */,
+				FC2028A9F1A64D947B3EA08C856C8379 /* Frameworks */,
+				9D962E44513BB90497C44791557EB7DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F878031FE38978FC9DF4716595BF140 /* PBXTargetDependency */,
+			);
+			name = "Pods-KVLoading_Tests";
+			productName = Pods_KVLoading_Tests;
+			productReference = C574C2E6981D47F70704AFCE5A1DD8D4 /* Pods-KVLoading_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -317,45 +322,47 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1030;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
+				Base,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = B5B5B2D9F0FD76E2074820A690F166E6 /* Products */;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3918C6F64F57E3A35FD392396A8B2EDE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B2BA4A23216217C042D498825E619C6A /* KVLoading */,
-				04812FEB69699CC0885CC8AB6CE291EB /* Pods-KVLoading_Example */,
-				0E661D2F268DCB19A4585676607CE533 /* Pods-KVLoading_Tests */,
+				1C97A403DC0AC31248B7BC8DFA413288 /* KVLoading */,
+				51F89085730760F4294FBBB25AE3F5B3 /* Pods-KVLoading_Example */,
+				B7A747743E8D131D37C66C7FE2001BC4 /* Pods-KVLoading_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		213993F1B604258C79EE6733209640C2 /* Resources */ = {
+		5E53E38421611D67398C2EEE45742356 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A39CB2FDC61AE7C70CA428E028BF95B /* Resources */ = {
+		9D962E44513BB90497C44791557EB7DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3137416EADF0B43F967A50B559D75BE /* Resources */ = {
+		DE05A9B0A031C5F64E672AECF0435F6F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -365,115 +372,57 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1B25DD6AB6663FDEEADF98EF4772CA31 /* Sources */ = {
+		439EEBFAFF689C827BBA18858E3BCEB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A47DA4D3A99430C479F5409004C36564 /* Pods-KVLoading_Example-dummy.m in Sources */,
+				16B4019C5274B5DF28BE5926429D0BDD /* Pods-KVLoading_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8943464F69D3D126CF04AF2DEA56A64D /* Sources */ = {
+		97C83A9EA33AC0E88191A9F3DBD5679B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE7CF1D1975D67A7CC7F25D693D1398E /* KVLoading-dummy.m in Sources */,
-				C34BE221C4D017E2B141762663AA01F1 /* KVLoading.swift in Sources */,
+				4B05A97FCF4026E4DBBBA0D6A74C3C0D /* Pods-KVLoading_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF9ED41A1178C250B10CB3A959419881 /* Sources */ = {
+		E979DD80C7AB5B9646EF383205A18461 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1443F93F95F27AA6D1D15B44AE17CAE4 /* Pods-KVLoading_Tests-dummy.m in Sources */,
+				BA3B5128E0D91EF1F657C4F918FF55EC /* KVLoading.swift in Sources */,
+				E60DEA0A693FE637AB8379CA0629A30B /* KVLoading+Extension.swift in Sources */,
+				86B8BBBF1B98CA748B627079C0685CC0 /* KVLoading-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		299C5C1F2846E9C28D6D1C562A01EC3D /* PBXTargetDependency */ = {
+		006B76AB0F5BE6EB77D5CD780436FD8A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KVLoading;
-			target = B2BA4A23216217C042D498825E619C6A /* KVLoading */;
-			targetProxy = 33256ED1FD22CA05D145E5E1C9532BD5 /* PBXContainerItemProxy */;
+			target = 1C97A403DC0AC31248B7BC8DFA413288 /* KVLoading */;
+			targetProxy = 1214875D42F1F1636CADE35B2D897C12 /* PBXContainerItemProxy */;
 		};
-		D74D97738D1B69DA196F041367685332 /* PBXTargetDependency */ = {
+		1F878031FE38978FC9DF4716595BF140 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-KVLoading_Example";
-			target = 04812FEB69699CC0885CC8AB6CE291EB /* Pods-KVLoading_Example */;
-			targetProxy = EE4702E7D11A3D65CAF637D568119ABC /* PBXContainerItemProxy */;
+			target = 51F89085730760F4294FBBB25AE3F5B3 /* Pods-KVLoading_Example */;
+			targetProxy = 3F2A4E48A3C4177254E8AA85157EB9B9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+		182E7120276F05761B629CA84E20413C /* Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		14B7895F1C649FF9A1534153EDFB08B9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D05CD7F4AAD71071DBDB82752FD79AE7 /* Pods-KVLoading_Example.debug.xcconfig */;
+			baseConfigurationReference = DC41766EDE2B9DF13F9C410E51A61E44 /* Pods-KVLoading_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -482,45 +431,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KVLoading_Example/Pods-KVLoading_Example-Info.plist";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-KVLoading_Tests/Pods-KVLoading_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KVLoading_Example/Pods-KVLoading_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		19FB3C4A0A49C33A6EE6DBB49E60761B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECC23129807BAB0407DCF299BD1BC891 /* Pods-KVLoading_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KVLoading_Example/Pods-KVLoading_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KVLoading_Example/Pods-KVLoading_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-KVLoading_Tests/Pods-KVLoading_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -535,7 +453,7 @@
 			};
 			name = Release;
 		};
-		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -562,6 +480,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -587,7 +506,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -595,49 +514,80 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		950530B35614BC58529EF03781CE86B0 /* Release */ = {
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65D065E875FF213E0D758CBA9B59DF25 /* KVLoading.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KVLoading/KVLoading-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KVLoading/KVLoading-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KVLoading/KVLoading.modulemap";
-				PRODUCT_MODULE_NAME = KVLoading;
-				PRODUCT_NAME = KVLoading;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		A865CD06543984AA12114F860DB6A275 /* Release */ = {
+		8DF23A53A60F4D1F7A8DAB44F953C4E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86E6527F4CEFB112B74ACB46ECBCE3CB /* Pods-KVLoading_Tests.release.xcconfig */;
+			baseConfigurationReference = D5CAEE20420B26F098576BEE0FA97F71 /* Pods-KVLoading_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -646,12 +596,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KVLoading_Tests/Pods-KVLoading_Tests-Info.plist";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-KVLoading_Example/Pods-KVLoading_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KVLoading_Tests/Pods-KVLoading_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-KVLoading_Example/Pods-KVLoading_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -659,50 +611,18 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C1F9D14E2244A9804810BCB69A3E76C2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65D065E875FF213E0D758CBA9B59DF25 /* KVLoading.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KVLoading/KVLoading-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KVLoading/KVLoading-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KVLoading/KVLoading.modulemap";
-				PRODUCT_MODULE_NAME = KVLoading;
-				PRODUCT_NAME = KVLoading;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		F36C32312AC8A5F5C5CEB8651E0C8713 /* Debug */ = {
+		B9A5F458058B2C3142C112DE9AAA97DC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8C8823401479A6F0C07D62B6C259B7E /* Pods-KVLoading_Tests.debug.xcconfig */;
+			baseConfigurationReference = EEDE677BD9D75759BC2FCB30D37F07C5 /* KVLoading.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -711,9 +631,86 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/KVLoading/KVLoading-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/KVLoading/KVLoading-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KVLoading/KVLoading.modulemap";
+				PRODUCT_MODULE_NAME = KVLoading;
+				PRODUCT_NAME = KVLoading;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CFFB69349F4FC9A9FA89244BC2E0A55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71516D01298427D5A1EBF5FB1DBCCD68 /* Pods-KVLoading_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-KVLoading_Example/Pods-KVLoading_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KVLoading_Example/Pods-KVLoading_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E0897D633FB90CB7026D14A0B04AC786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF4F94A5A9B7C995356462453F99BFB3 /* Pods-KVLoading_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-KVLoading_Tests/Pods-KVLoading_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-KVLoading_Tests/Pods-KVLoading_Tests.modulemap";
@@ -724,6 +721,42 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EB2F38EEA7F01DD375AA383A57F952E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 229F6A06BC5E726AE08AC6A448AEE42E /* KVLoading.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/KVLoading/KVLoading-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/KVLoading/KVLoading-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KVLoading/KVLoading.modulemap";
+				PRODUCT_MODULE_NAME = KVLoading;
+				PRODUCT_NAME = KVLoading;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -733,11 +766,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		42BA44E050CB1A794422FB43EE961351 /* Build configuration list for PBXNativeTarget "Pods-KVLoading_Tests" */ = {
+		3D4C51DFE69E2ECA6AA2305F7146FDF6 /* Build configuration list for PBXNativeTarget "Pods-KVLoading_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F36C32312AC8A5F5C5CEB8651E0C8713 /* Debug */,
-				A865CD06543984AA12114F860DB6A275 /* Release */,
+				E0897D633FB90CB7026D14A0B04AC786 /* Debug */,
+				182E7120276F05761B629CA84E20413C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -745,26 +778,26 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
-				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF3B16D5457C7C57D230FA0F5B709DBF /* Build configuration list for PBXNativeTarget "Pods-KVLoading_Example" */ = {
+		95794DCA0709B160261DF7017ED37FE3 /* Build configuration list for PBXNativeTarget "Pods-KVLoading_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				14B7895F1C649FF9A1534153EDFB08B9 /* Debug */,
-				19FB3C4A0A49C33A6EE6DBB49E60761B /* Release */,
+				8DF23A53A60F4D1F7A8DAB44F953C4E0 /* Debug */,
+				CFFB69349F4FC9A9FA89244BC2E0A55B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D45F995507C330227AE0EEFBBC509352 /* Build configuration list for PBXNativeTarget "KVLoading" */ = {
+		B10E952C0F9CF26CF12653F84B9B65B3 /* Build configuration list for PBXNativeTarget "KVLoading" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1F9D14E2244A9804810BCB69A3E76C2 /* Debug */,
-				950530B35614BC58529EF03781CE86B0 /* Release */,
+				EB2F38EEA7F01DD375AA383A57F952E4 /* Debug */,
+				B9A5F458058B2C3142C112DE9AAA97DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
