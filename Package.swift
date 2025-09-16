@@ -1,9 +1,10 @@
+// swift-tools-version:5.7
 import PackageDescription
 
 let package = Package(
     name: "KVLoading",
     platforms: [
-        .iOS(.v14)
+        .iOS(.v14),
     ],
     products: [
         .library(
