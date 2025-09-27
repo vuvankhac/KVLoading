@@ -2,13 +2,20 @@
 //  KVLoading+Extension.swift
 //  KVLoading
 //
-//  Created by Khac VU on 16/9/25.
+//  Created by Khac VU on 13/12/25.
 //
 
-import Foundation
 import UIKit
 
 public extension UIViewController {
+    var visibleViewController: UIViewController {
+        var viewController: UIViewController = self
+        while let presentedViewController = viewController.presentedViewController {
+            viewController = presentedViewController
+        }
+        return viewController
+    }
+    
     @objc func showLoading(in view: UIView? = nil, timeout: Int = 66, animated: Bool = true) {
         if timeout > 0 {
             UIView.cancelPreviousPerformRequests(withTarget: self, selector: #selector(hideLoading(animated:)), object: nil)
@@ -16,10 +23,13 @@ public extension UIViewController {
         }
         if let unwrappedView = view {
             KVLoading.shared.show(in: unwrappedView, animated: animated)
-        } else if let windowScene = UIApplication.shared.connectedScenes.first(where: { $0 is UIWindowScene }) as? UIWindowScene,
-                  let window = windowScene.windows.first(where: { $0.isKeyWindow }),
-                  let rootViewController = window.rootViewController,
-                  let unwrappedView = rootViewController.view {
+        } else if let unwrappedView = UIApplication.shared.connectedScenes
+            .compactMap({ $0 as? UIWindowScene })
+            .flatMap({ $0.windows })
+            .first(where: { $0.isKeyWindow })?
+            .rootViewController?
+            .visibleViewController
+            .view {
             KVLoading.shared.show(in: unwrappedView, animated: animated)
         }
     }

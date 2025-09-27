@@ -1,23 +1,22 @@
 {
   "name": "KVLoading",
-  "version": "3.0.0",
-  "summary": "Loading screen for Swift.",
+  "version": "0.1.0",
+  "summary": "A short description of KVLoading.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/vuvankhac/KVLoading",
+  "homepage": "https://github.com/Khac VU/KVLoading",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "vuvankhac": "khacvv0451@gmail.com"
+    "Khac VU": "khacvv0451@gmail.com"
   },
   "source": {
-    "git": "https://github.com/vuvankhac/KVLoading.git",
-    "tag": "3.0.0"
+    "git": "https://github.com/Khac VU/KVLoading.git",
+    "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "14.0"
+    "ios": "10.0"
   },
-  "source_files": "KVLoading/Classes/**/*",
-  "frameworks": "UIKit"
+  "source_files": "KVLoading/Classes/**/*"
 }

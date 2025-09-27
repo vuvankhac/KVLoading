@@ -1,16 +1,27 @@
 PODS:
-  - KVLoading (3.0.0)
+  - KVLoading (0.1.0)
+  - Nimble (10.0.0)
+  - Quick (2.2.1)
 
 DEPENDENCIES:
   - KVLoading (from `../`)
+  - Nimble (~> 10.0.0)
+  - Quick (~> 2.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
 
 EXTERNAL SOURCES:
   KVLoading:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KVLoading: 707a94d0bfc1a729f51129d33a69b84829026824
+  KVLoading: 24f5a036aada51c5627b14c5a4812fec7a49f076
+  Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
 
-PODFILE CHECKSUM: 0de2781ccbd649e38bf61bbd48c2819239718665
+PODFILE CHECKSUM: 810a28915e1c4d829551bf898dd2804ffa9c0a2e
 
 COCOAPODS: 1.16.2
