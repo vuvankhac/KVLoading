@@ -16,6 +16,7 @@ public extension UIViewController {
         return viewController
     }
     
+    @MainActor
     @objc func showLoading(in view: UIView? = nil, timeout: Int = 66, animated: Bool = true) {
         if timeout > 0 {
             UIView.cancelPreviousPerformRequests(withTarget: self, selector: #selector(hideLoading(animated:)), object: nil)
@@ -34,6 +35,7 @@ public extension UIViewController {
         }
     }
     
+    @MainActor
     @objc func hideLoading(animated: Bool = true) {
         UIView.cancelPreviousPerformRequests(withTarget: self, selector: #selector(hideLoading(animated:)), object: nil)
         KVLoading.shared.hide(animated: animated)

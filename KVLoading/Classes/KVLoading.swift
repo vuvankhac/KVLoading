@@ -7,6 +7,7 @@
 
 import UIKit
 
+@MainActor
 public class KVLoading: NSObject {
     public static let shared = KVLoading()
     
