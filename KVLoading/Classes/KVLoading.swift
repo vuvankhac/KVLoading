@@ -31,7 +31,7 @@ public class KVLoading: NSObject {
             backgroundView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
         ])
         
-        let activityIndicatorView = UIActivityIndicatorView(activityIndicatorStyle: .large)
+        let activityIndicatorView = UIActivityIndicatorView(style: .large)
         activityIndicatorView.color = UIColor(white: 1.0, alpha: 1.0)
         backgroundView.addSubview(activityIndicatorView)
         activityIndicatorView.translatesAutoresizingMaskIntoConstraints = false

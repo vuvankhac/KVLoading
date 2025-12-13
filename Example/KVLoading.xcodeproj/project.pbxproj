@@ -28,7 +28,7 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		86140CB696D6560AE8A77E6D /* KVLoading.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KVLoading.podspec; path = ../KVLoading.podspec; sourceTree = "<group>"; };
+		86140CB696D6560AE8A77E6D /* KVLoading.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KVLoading.podspec; path = ../KVLoading.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C169435019BA9E092B0D46DA /* Pods_KVLoading_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVLoading_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5CB3F4856D47A97517BBFB2 /* Pods-KVLoading_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVLoading_Example.debug.xcconfig"; path = "Target Support Files/Pods-KVLoading_Example/Pods-KVLoading_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F43261923B2585D29F369B48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -196,6 +196,7 @@
 			shellScript = (
 				"\"${PODS_ROOT}/Target Support Files/Pods-KVLoading_Example/Pods-KVLoading_Example-frameworks.sh\"",
 				"",
+				"",
 			);
 			showEnvVarsInLog = 0;
 		};
@@ -219,6 +220,7 @@
 				"fi",
 				"# This output is used by Xcode 'outputs' to avoid re-running this script phase.",
 				"echo \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"",
+				"",
 				"",
 			);
 			showEnvVarsInLog = 0;
